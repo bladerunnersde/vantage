@@ -1,0 +1,40 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+._.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Xcode
+.DS_Store
+build/
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+/Carthage/Build
+
+# Swift Package Manager
+/.build
+
+# Package Manager dependencies
+/.swiftpm
+
+# Sensitive or environment-specific files
+secrets.yml
+.env
+node_modules
